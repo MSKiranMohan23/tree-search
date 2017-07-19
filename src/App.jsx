@@ -31,7 +31,7 @@ class App extends React.Component {
 	render() {
 	return ( 
 		<div>
-			Hello Worldasdkasdasldk!!!
+			This is an example for Tree view with search using React-Redux!!! <br /><br />
 			<Search item={this.props.store} act_search ={this.act_search} />
 			<Node item={this.state.item} />
 		</div>
